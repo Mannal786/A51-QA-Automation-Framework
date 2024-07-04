@@ -33,4 +33,5 @@ public class homework18 extends LoginTests {
         WebElement soundBarMoving = driver.findElement(By.xpath("//div[@data-testid='sound-bar-play']"));
         return soundBarMoving.isDisplayed();
     }
+    
 }
